@@ -37,7 +37,7 @@ export const PROYECTOS = [
         description: 'Aplicación mobile para beneficios del shopping Portones',
         image: portones,
         link: 'https://youtu.be/hpygvFWhXl0',
-        colorClass: 'quegireapp',
+        colorClass: 'portones',
         languages: ['java']
     }
 ]
