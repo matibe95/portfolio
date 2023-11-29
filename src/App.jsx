@@ -102,6 +102,10 @@ function App() {
           </li>
           <li className="mb-10 ms-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Inglés fluído</h3>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <h3 className="text-lg font-semibold">Componetización de la web</h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">React</p>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">Angular</p>
