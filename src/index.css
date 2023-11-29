@@ -2,6 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .dark-mode {
+    --color-primary: #0D8065;
+    --color-secondary: #111722;
+    --color-background-fill: #131313;
+    --color-text-base: #ffffff;
+    --color-accent: #A8579B;
+    --color-contrast: #040301;
+  }
+
+  .light-mode {
+    --color-primary: #0D8065;
+    --color-secondary: #e1e1dd;
+    --color-secondary: #DDE3EE;
+    --color-background-fill: #ffffff;
+    --color-text-base: #040301;
+    --color-accent: #A8579B;
+    --color-contrast: #ffffff;
+  }
+}
+
+.boton-principal {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+
+  /* transition: border-color 0.25s; */
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+}
+
+.boton-principal:hover {
+  transform: translate(0, -3px);
+}
+
+.boton-secundario {
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+}
+
+.boton-secundario:hover {
+  transform: translate(0, -3px);
+}
+
+body {
+  padding: 0 30%;
+}
+
+@media (max-width: 1400px) {
+  body {
+    padding: 0 20%;
+  }
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  color: #222;
+  @apply tracking-tighter
+}
+
+/* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -74,4 +138,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
