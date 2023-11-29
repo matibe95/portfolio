@@ -79,7 +79,6 @@ function App() {
               <h3 className="text-lg font-semibold">Aclamada victoria</h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">Luego de haber estado a un pequeño paso de ser los ganadores, decidimos volver a participar del mismo certamen con el mismo equipo. Logrando el primer premio y desarrollando la aplicación de beneficios Portones.</p>
           </li>
-          
           <li className="ms-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Noviembre 2023</time>
@@ -87,6 +86,48 @@ function App() {
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">Tras estudiar 3 años en el bachillerato informático, adquirí conocimientos muy sólidos sobre muchas areas. En el camino tuve asignaturas como Base de datos, Diseño Web, Sistemas Operativo. Además, este ultimo año mi conocimiento sobre documentación aumentó exponencialmente gracias al proyecto final que mi equipo y yo tuvimos que desarrollar: Origins App</p>
           </li>
         </ol>
+        <hr className='w-full border-[#929292]'/>
+        <h2 className='text-2xl font-semibold'>Habilidades</h2>
+        <ol className="relative border-s border-gray-200 dark:border-gray-700">                  
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Trabajo en equipo</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Tras 3 años de experiencia trabajando en equipos para desarrollar software mis habilidades blandas se han potenciado permitiendome trabajar correctamente y adaptarme fácilmente al equipo en el que me encuentro</p>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Documentación</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Amplio conocimiento de metodologías de desarrollo, principalmente el marco de trabajo SCRUM</p>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Completa documentación del software a desarrollar, incluyendo todo tipo de análisis de viabilidad, fáctibilidad, design thinking</p>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Componetización de la web</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">React</p>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Angular</p>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Versionado de Código</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Git</p>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Github</p>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Contenedores</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Docker</p>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Sistemas operativos</h3>
+          </li>
+          <li className="ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <h3 className="text-lg font-semibold">Creación de APIS REST</h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Laravel</p>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Node</p>
+          </li>
+          </ol>
       </div>
     </>
   )
