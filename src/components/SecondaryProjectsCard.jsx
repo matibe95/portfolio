@@ -16,7 +16,7 @@ export const SecondaryProjectsCard = ({name, description, languages, link}) => {
                 iconsArray.map((item)=>{
                     if (!ICONS_LIST[item]) return
                     return (
-                        <div key={crypto.randomUUID()}>
+                        <div className="smallIconSize" key={crypto.randomUUID()}>
                             {ICONS_LIST[item]}
                         </div>
                     )
