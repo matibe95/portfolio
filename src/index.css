@@ -30,7 +30,7 @@
   cursor: pointer;
 
   /* transition: border-color 0.25s; */
-  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  transition: all ease 0.2s, box-shadow ease 0.2s;
 }
 
 .boton-principal:hover {
@@ -42,7 +42,7 @@
   cursor: pointer;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  transition: all ease 0.2s, box-shadow ease 0.2s;
 }
 
 .boton-secundario:hover {
