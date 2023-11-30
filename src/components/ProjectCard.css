@@ -27,3 +27,17 @@
     stroke: #fff;
     fill: #fff;
 }
+
+.projectCard_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 500px) {
+    .projectCard_container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 10px 0;
+    }
+}

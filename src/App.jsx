@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='container py-28 flex flex-col gap-6'>
+      <div className='w-full py-28 flex flex-col gap-6'>
         <div className=''>
         <h1 className='text-4xl font-semibold text-[#222]'>Hola, soy Matias. <br/>Desarollador <span className='text-4xl font-bold text-[#0D8065]'>FullStack</span>.</h1>
         </div>
@@ -43,7 +43,7 @@ function App() {
             })
           }
         </section>
-        <section className='grid grid-cols-2 gap-6'>
+        <section className='secondary_projects_container'>
           {
             PROYECTOS_SECUNDARIOS.map((item)=>{
               return (

@@ -15,7 +15,7 @@ export const ProjectCard = ({image, name, description, link, colorClass, languag
 
 
   return (
-    <article className='grid grid-cols-2 w-full gap-6'>
+    <article className='projectCard_container w-full'>
       <img src={image} className='hover:-translate-y-1 transition-all shadow-md rounded-lg object-cover object-top w-full h-[220px]' alt=""/>
     <section className='flex flex-col gap-3 justify-between'>
         <div className="flex flex-col gap-2">
