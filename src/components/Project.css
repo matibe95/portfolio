@@ -1,0 +1,14 @@
+.project_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+@media (max-width: 500px) {
+    .project_container {
+        grid-auto-flow: dense;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 10px 0;
+    }
+}
